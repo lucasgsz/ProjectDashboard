@@ -43,6 +43,21 @@ nav ul li{
 nav ul li a{
     color: var(--roxo);
 }
+/* ##################### ESTILO PADRAO #################### */
+.containerStyle{
+    margin-top: 100px;
+}
+.containerStyle > div > h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: solid 5px var(--roxo);
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #1d1e20;
+}
+
+
 
 /* Container Header Slogan */
 .containerHeader{
@@ -64,18 +79,7 @@ nav ul li a{
 }
 
 /* Containers de segmentos */
-.containerSegmentos{
-    margin-top: 100px;
-}
-.containerSegmentos > div > h1{
-    text-transform: uppercase;
-    font-weight: 700;
-    border-bottom: solid 5px var(--roxo);
-    width: 500px;
-    margin: 0 auto;
-    border-radius: 5px;
-    color: #1d1e20;
-}
+
 .cardBox{
     margin-top: 50px;
     display: flex;
@@ -89,13 +93,18 @@ nav ul li a{
     padding: 10px;
     background-color: white;
     width: 25vw;
-    margin: 10px;
+    margin: 10px 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px #dcdcdc;
+    box-shadow: 0 0 20px #dcdcdc;
     border: solid 1px #fafbfa;
-}
-.card-icon{
 }
 .card-texto{
     width: 65%;
+}
+
+/* Container Sobre a Empresa */
+
+.containerSobre{
+    height: 500px;
+    width: 100%;
 }
